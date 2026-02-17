@@ -28,7 +28,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - textual >=7.5.0
+    - textual >=8.0.0
     - click >=8.2.1
     - gitpython >=3.1.44
     - tree_sitter >=0.24.0
