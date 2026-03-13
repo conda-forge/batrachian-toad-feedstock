@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.11"
+  version: "0.6.12"
   python_min: "3.14"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/b/batrachian-toad/batrachian_toad-${{ version }}.tar.gz
-    sha256: ec4ddcc548ebdaa06eb100112f048abe2b3d97b95f5f73f1991064cbb663c016
+    sha256: 294b5e99e7fe2b846bb01252affdbb808478859d62e6596bada60a2ffcd905c2
 
 build:
   number: 0
@@ -36,7 +36,7 @@ requirements:
     - httpx >=0.28.1
     - platformdirs >=4.3.8
     - rich
-    - typeguard >=4.4.4
+    - typeguard =4.4.4
     - xdg-base-dirs >=6.0.2
     - textual-serve >=1.1.2
     - textual-speedups =0.2.1
