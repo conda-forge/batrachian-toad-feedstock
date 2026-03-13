@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.10"
+  version: "0.6.11"
   python_min: "3.14"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/b/batrachian-toad/batrachian_toad-${{ version }}.tar.gz
-    sha256: 47effd7d709360a640e0b6e60983ce3995629a8cd214c19c82bcd6e68255dc9e
+    sha256: ec4ddcc548ebdaa06eb100112f048abe2b3d97b95f5f73f1991064cbb663c016
 
 build:
   number: 0
