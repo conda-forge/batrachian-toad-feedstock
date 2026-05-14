@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.15"
+  version: "0.6.17"
   python_min: "3.14"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/b/batrachian-toad/batrachian_toad-${{ version }}.tar.gz
-    sha256: d9ff00cac590365ef396ba74e135708d8fd43ce975a64613eecba89c7bfb3753
+    sha256: 3b383bed2f256a95e2082e93641d9a06f4fc444b566f656eef95a57648691fe5
 
 build:
   number: 0
@@ -28,27 +28,27 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - textual >=8.2.3
-    - click >=8.2.1
-    - gitpython >=3.1.44
-    - tree_sitter >=0.24.0
+    - textual =8.2.6
+    - tree_sitter >=0.25.0
     - tree_sitter_languages
-    - httpx >=0.28.1
-    - platformdirs >=4.3.8
-    - rich
-    - typeguard =4.4.4
+    - click =8.3.3
+    - httpx =0.28.1
+    - platformdirs =4.9.6
+    - rich =15.0.0
+    - typeguard =4.5.1
     - xdg-base-dirs >=6.0.2
     - textual-serve >=1.1.2
     - textual-speedups =0.2.1
-    - packaging >=25.0
-    - bashlex >=0.18
-    - pathspec >=0.12.1
-    - notify-py >=0.3.43
-    - pyperclip >=1.11.0
-    - watchdog >=6.0.0
-    - setproctitle >=1.3.7
-    - psutil >=7.2.1
-    - aiosqlite >=0.22.1
+    - packaging =26.2
+    - bashlex =0.18
+    - pathspec =1.1.1
+    - notify-py =0.3.43
+    - pyperclip =1.11.0
+    - watchdog =6.0.0
+    - setproctitle =1.3.7
+    - psutil =7.2.2
+    - aiosqlite =0.22.1
+    - textual-diff-view =0.1.5
     - xclip
 
 tests:
